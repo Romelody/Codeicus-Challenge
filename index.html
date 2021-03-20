@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedidos</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet"  href='main.css'>
+</head>
+<body>
+  <section class="mb-4 py-3 exercise-menu">
+    <div class="container d-flex align-items-center">
+      <h2 class="mr-3">Ejercicio 1</h4>
+      <a  class="mr-3" href="ejercicio2.html">Ejercicio 2</a>
+      <a href="ejercicio3.html">Ejercicio 3</a>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <h3 class="my-3">
+        Pedidos
+      </h3>
+      <p class="sub-title">Listado de Productos y Stock</p>
+      <form>
+        <div class="col-12 col-md-4 justify-content-between align-items-between mb-5">
+          <div class="row justify-content-between">
+            <p>Producto</p>
+            <p>Cantidad</p>
+          </div>
+          <div class="row justify-content-between align-items-center mb-2">
+            <p class="m-0">Celulares</p>
+            <select name="Celulares" class="select-items">
+              <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+            
+          </div>
+          <div class="row justify-content-between align-items-center mb-2">
+            <p class="m-0">Auriculares</p>
+            <select name="Auriculares" class="select-items">
+              <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+            </select>
+            
+          </div>
+          <div class="row justify-content-between align-items-center mb-2">
+            <p class="m-0">Cargador Inalambrico</p>
+            <select name="CargadorInalambrico" class="select-items">
+              <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select>
+            
+          </div>
+          <div class="row justify-content-between align-items-center mb-2">
+            <p class="m-0">Cargador</p>
+            <select name="Cargador" class="select-items">
+              <option>0</option>
+              <option>1</option>
+              <option>2</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="row mb-3">
+            <div class="d-flex flex-column mr-3">
+              <label>
+                Encargado de recibir el pedido
+              </label>
+              <input placeholder="Nombre">
+            </div>
+            <div class="d-flex flex-column mr-3">
+              <label>
+                DNI del encargado
+              </label>
+              <input type="number" placeholder="DNI">
+            </div>
+            <div class="d-flex flex-column mr-3">
+              <label>
+                Fecha de Entrega
+              </label>
+              <input type="date" name="fecha">
+            </div>
+          </div>
+          <div class="row">
+            <div class="d-flex flex-column">
+              <label>Sucursal Destinataria</label>
+              <input type="text" placeholder="Av. Triunvirato 1111">
+              <label>
+                Notas
+              </label>
+              <textarea name="texto" rows="4" placeholder="Especificaciones extra"></textarea>
+
+            </div>
+          </div>
+        </div>
+        <button type="button"> Enviar</button>
+        <!-- 
+          <select name="cantidad">
+
+          <option>1</option>
+          
+          <option>2</option>
+          
+          <option>3</option>
+          
+          </select> -->
+      </form>
+
+    </div>
+  </section>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.exercise-menu{
+  background: #7FC2E3;
+  color: #fff;
+}
+.exercise-menu a{
+  color: #fff;
+}
+body{
+  color: #385563;
+}
+
+button{
+  background: #71ACC9;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 0px;
+  margin: 30px 0;
+}
+
+.select-items{
+  background: #7FC2E3;
+  width: 50px;
+  border: 0px;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}

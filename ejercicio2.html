@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 2</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet"  href='main.css'>
+</head>
+<body>
+  <section class="mb-4 py-3 exercise-menu">
+    <div class="container d-flex align-items-center">
+      <a class="mr-3" href="index.html">Ejercicio 1</a>
+      <h2 class="mr-3" href="ejercicio2.html">Ejercicio 2</h2>
+      <a href="ejercicio3.html">Ejercicio 3</a>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <p>Se encuentra el código en main.js</p>
+      <p>
+        function validarFormulario (){
+          var pedido = [
+            {id:2, cod:"Prod-b",name:'Auriculares',cantidad:5},
+            {id:2, cod:"Prod-c",name:'CargadorInalambrico',cantidad:2}
+          ]
+          var productos_habilitados = [
+            {id:1, cod:"Prod-a", name:'Celulares', stock:5},
+            {id:2, cod:"Prod-b", name:'Auriculares', stock:6},
+            {id:3, cod:"Prod-c", name:'CargadorInalambrico', stock:3},
+            {id:4, cod:"Prod-d", name:'Cargador', stock:2}
+          ]
+        
+          var selectedProduct = productos_habilitados.filter(producto=>producto[cod]=== pedido[cod])
+          for(producto of pedido){
+            if (pedido [cantidad]> selectedProduct[stock]){
+              return false;
+            }
+          }
+          return true;
+        
+        }
+      </p>
+  </section>
+  </div>
+  
+</body>
+</html>
